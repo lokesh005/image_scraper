@@ -142,4 +142,3 @@ class URLValidator:
         elif parsed_url.path.startswith('/images'):
             self.counter = self.counter + 1
             return 'images.png' if self.counter == 1 else 'images{}.png'.format(self.counter)
-
