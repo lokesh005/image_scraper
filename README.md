@@ -51,3 +51,4 @@ The script contains following things:\
 #### Note:
 * Right now I am considering that the text file will either contain URL with extensions like 'jpg', 'png', 'gif', 'bmp', 'jpeg', 'webp' or the URL that is extracted from Google Image search([sample image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQVAKOMUULIBcWwo1e1Ci6sJnn1PfoKVEfXjSYUnSuGV61WWk9)). Also for URL like mentioned above does not have any basename, so I will be saving the file in the name of `images(\d).png`.  
 * The image files and the log file will be saved inside a directory, where the directory name will be the timestamp at which the python script was called.
+* Python version used: `Python 3.6.7`
