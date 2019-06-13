@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Mac
+.DS_Store
+./image_scraper/.DS_Store
+./sample_date/.DS_Store
+./tests/.DS_Store
